@@ -1,6 +1,6 @@
-# MIRROR Code 
+# Counseling Code 
 
-이 폴더는 MIRROR 계열 상담 데이터셋과 Qwen3-VL LoRA 학습 코드를 정리한 작업 디렉터리입니다. 현재 핵심 대상은 `depression`, `panic`, `PTSD` 세 가지 상담 도메인입니다.
+이 폴더는 Counseling 계열 상담 데이터셋과 Qwen3-VL LoRA 학습 코드를 정리한 작업 디렉터리입니다. 현재 핵심 대상은 `depression`, `panic`, `PTSD` 세 가지 상담 도메인입니다.
 
 ## 주요 구성
 
