@@ -4,4 +4,6 @@ diffusers==0.29.1
 insightface==1.0.1
 onnxruntime==1.23.2
 einops==0.8.2
+spaces
+omegaconf
 vllm==0.20.2
