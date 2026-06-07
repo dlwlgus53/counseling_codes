@@ -7,15 +7,13 @@
 - `qwenVL_depression/`: 우울/CBT MIRROR 한국어 데이터 기반 Qwen3-VL LoRA 학습 코드
 - `qwenVL_panic/`: 공황/급성불안 응급상담 데이터 기반 Qwen3-VL LoRA 학습 코드
 - `qwenVL_PTSD/`: PTSD/트라우마 기반 CBT 상담 데이터 기반 Qwen3-VL LoRA 학습 코드
-- `translate/`: 기존 데이터 번역 및 배치 처리 관련 작업물
-- `_api/`: 일부 API 서버/검증용 코드
 - `configs/`: 로컬 설정 파일 위치
 
 ## API 키 설정
 
 실제 API 키 파일은 인수인계 자료에서 제거했습니다.
 
-OpenAI API를 사용하는 추가 데이터 생성/번역 스크립트를 실행하려면 아래 템플릿을 복사해서 로컬에서만 채워 넣으세요.
+OpenAI API를 사용하는 추가 데이터 생성 스크립트를 실행하려면 아래 템플릿을 복사해서 로컬에서만 채워 넣으세요.
 
 ```bash
 cd /home/jihyunlee/mirror/MIRROR_code
@@ -64,7 +62,7 @@ cd /home/jihyunlee/mirror/MIRROR_code
 pip install -r requirements.txt
 ```
 
-이미지 합성 또는 `_api` 보조 기능까지 사용할 경우 선택 의존성을 추가로 설치합니다.
+이미지 합성 보조 기능까지 사용할 경우 선택 의존성을 추가로 설치합니다.
 
 ```bash
 pip install -r requirements_optional.txt
