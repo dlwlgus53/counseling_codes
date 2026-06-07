@@ -1,0 +1,11 @@
+[
+  {
+    "request_file": "/home/jihyunlee/mirror/translate/train_ko_batch_test10/batch_input_000.jsonl",
+    "input_file_id": "file-8LVWQFpMe5BqrrcVXGa52G",
+    "batch_id": "batch_6a00b61622cc8190a523b24cf8e72046",
+    "status": "completed",
+    "output_file_id": "file-7TS1VVvcDAjo1o3F9J5noF",
+    "error_file_id": null,
+    "output_path": "/home/jihyunlee/mirror/translate/train_ko_batch_test10/outputs/batch_6a00b61622cc8190a523b24cf8e72046_output.jsonl"
+  }
+]

@@ -1,0 +1,13 @@
+# Store large model/data artifacts in Git LFS.
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.wandb filter=lfs diff=lfs merge=lfs -text
+
+qwenVL_*/checkpoints/** filter=lfs diff=lfs merge=lfs -text
+qwenVL_*/data/**/*.jsonl filter=lfs diff=lfs merge=lfs -text
+qwenVL_*/data/**/*.json filter=lfs diff=lfs merge=lfs -text
+qwenVL_*/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
+translate/**/*.jsonl filter=lfs diff=lfs merge=lfs -text

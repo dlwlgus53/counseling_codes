@@ -1,0 +1,24 @@
+data/*
+mirror/step4/data
+mirror/notebook/
+mirror-llava/playground/data/
+mirror-llava/notebook/
+llm_therapist/*
+mirror-llama/run_scripts
+
+# Local secrets
+configs/api.json
+
+# Large image assets are distributed separately.
+qwenVL_depression/data/mirror_images/
+qwenVL_depression/data/add_dataset/raw/image/
+qwenVL_depression/data/**/*.png
+qwenVL_depression/data/**/*.jpg
+qwenVL_depression/data/**/*.jpeg
+qwenVL_depression/data/**/*.webp
+
+# Runtime noise
+**/__pycache__/
+**/*.pyc
+**/wandb/
+*.bak

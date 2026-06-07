@@ -1,0 +1,20 @@
+{
+  "input_csv": "/home/jihyunlee/mirror/MIRROR_code/data/processed/train.csv",
+  "columns": [
+    "distorted_thought",
+    "thinking_trap",
+    "reason_for_seeking_counseling",
+    "cbt_plan",
+    "dialogue",
+    "attitude",
+    "cbt_technique"
+  ],
+  "model": "gpt-4o-mini",
+  "num_rows": 10,
+  "prepared_rows": 10,
+  "total_rows": 3072,
+  "created_at": 1778430836,
+  "request_files": [
+    "/home/jihyunlee/mirror/translate/train_ko_batch/batch_input_000.jsonl"
+  ]
+}

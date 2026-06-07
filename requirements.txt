@@ -1,0 +1,17 @@
+# Core Qwen3-VL LoRA training and data generation dependencies.
+# Install PyTorch separately for the target CUDA driver before this file.
+
+transformers==4.57.6
+peft==0.18.1
+accelerate==1.12.0
+bitsandbytes==0.49.2
+
+openai==2.36.0
+sentence-transformers==5.5.1
+scikit-learn==1.7.2
+pandas==2.3.3
+numpy==2.2.6
+scipy==1.15.3
+tqdm==4.67.3
+pillow==12.1.1
+wandb==0.26.1
