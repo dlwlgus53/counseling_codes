@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 
 if [[ -f /home/jihyunlee/anaconda3/etc/profile.d/conda.sh ]]; then
   source /home/jihyunlee/anaconda3/etc/profile.d/conda.sh
@@ -32,7 +32,7 @@ GPT_MODEL="${GPT_MODEL:-gpt-4o}"
 
 cd "${ROOT_DIR}"
 
-echo "Building PTSD add_dataset retrieval artifacts"
+echo "Building panic add_dataset retrieval artifacts"
 "${PYTHON_BIN}" src/build_add_dataset_example.py \
   --profile-model "${GPT_MODEL}" \
   --dialogue-model "${GPT_MODEL}" \

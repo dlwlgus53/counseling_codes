@@ -145,7 +145,7 @@ data/mirror_ko_train.jsonl
 
 ```bash
 cd /home/jihyunlee/mirror/MIRROR_code/qwenVL_depression
-bash data/add_dataset/generate_new_dataset.sh
+bash scripts/generate_new_dataset.sh
 ```
 
 하나의 파일만 처리하려면:
@@ -242,7 +242,7 @@ data/panic_ko_train.jsonl
 
 ```bash
 cd /home/jihyunlee/mirror/MIRROR_code/qwenVL_panic
-bash data/add_dataset/generate_new_dataset.sh
+bash scripts/generate_new_dataset.sh
 ```
 
 하나의 파일만 처리하려면:
@@ -360,7 +360,7 @@ data/ptsd_ko_train.jsonl
 
 ```bash
 cd /home/jihyunlee/mirror/MIRROR_code/qwenVL_PTSD
-bash data/add_dataset/generate_new_dataset.sh
+bash scripts/generate_new_dataset.sh
 ```
 
 하나의 파일만 처리하려면:
